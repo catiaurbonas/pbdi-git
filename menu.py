@@ -13,3 +13,6 @@ def menu():
     if opcao == 3:
        produto = calculadora.multiplicar(a,b)
        print(f'{a} * {b} = {produto}')   
+    if opcao == 4:
+       quociente = calculadora.dividir(a,b)
+       print(f'{a} / {b} = {quociente}')   
