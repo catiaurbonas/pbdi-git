@@ -15,4 +15,6 @@ def menu():
        print(f'{a} * {b} = {produto}')   
     if opcao == 4:
        quociente = calculadora.dividir(a,b)
-       print(f'{a} / {b} = {quociente}')   
+       print(f'{a} / {b} = {quociente}')  
+    if opcao == 0:
+       print('Aplicacao encerrada')     
