@@ -17,4 +17,7 @@ def menu():
        quociente = calculadora.dividir(a,b)
        print(f'{a} / {b} = {quociente}')  
     if opcao == 0:
-       print('Aplicacao encerrada')     
+       print('Aplicacao encerrada') 
+
+# Chamando a funcao Menu             
+menu()
