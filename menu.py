@@ -7,3 +7,6 @@ def menu():
     if opcao == 1:
        soma = calculadora.somar(a,b)
        print(f'{a} + {b} = {soma}')
+    if opcao == 2:
+       subtracao = calculadora.subtrair(a,b)
+       print(f'{a} - {b} = {subtracao}')      
