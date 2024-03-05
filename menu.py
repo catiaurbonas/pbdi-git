@@ -10,3 +10,6 @@ def menu():
     if opcao == 2:
        subtracao = calculadora.subtrair(a,b)
        print(f'{a} - {b} = {subtracao}')      
+    if opcao == 3:
+       produto = calculadora.multiplicar(a,b)
+       print(f'{a} * {b} = {produto}')   
